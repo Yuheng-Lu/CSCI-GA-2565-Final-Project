@@ -17,11 +17,9 @@ static/cc.es.300.bin
 static/embedding_matrix.pth
 
 # Contents of data directories but keep the directories themselves
-data/processed/*
-data/raw/*
-!data/processed/
-!data/raw/
+data/processed/review_context_final.json.gz
+data/raw/goodreads_reviews_spoiler.json.gz
 
 # Trained models
-models/*
-
+models/complete_model.pth
+models/model_state_dict.pth

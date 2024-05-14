@@ -9,24 +9,28 @@ SpoilerNet is a machine learning project aimed at identifying spoilers in book r
 ```
 SpoilerNet/
 ├── README.md
-├── data/
-│   ├── README.md
-│   ├── processed/
-│   │   ├── review_context.json.gz
-│   │   ├── review_context_final.json.gz
-│   │   └── review_context_small.json.gz
-│   └── raw/
-│       ├── goodreads_reviews_spoiler.json
-│       └── goodreads_reviews_spoiler.json.gz
+├── data
+│   ├── README.md
+│   ├── processed
+│   │   ├── README.md
+│   │   └── review_context_final.json.gz
+│   └── raw
+│       ├── README.md
+│       └── goodreads_reviews_spoiler.json.gz
+├── images
+│   ├── 1.png
+│   ├── 2.png
+│   └── 3.png
 ├── index.py
-├── models/
-│   ├── complete_model.pth
-│   └── model_state_dict.pth
-├── notebooks/
-│   ├── data_preprocessing.ipynb
-│   ├── model_implementation.ipynb
-│   └── spoilernet.py
-└── static/
+├── models
+│   ├── README.md
+│   ├── complete_model.pth
+│   └── model_state_dict.pth
+├── notebooks
+│   ├── data_preprocessing.ipynb
+│   ├── model_implementation.ipynb
+│   └── spoilernet.py
+└── static
     ├── cc.es.300.bin
     ├── embedding_matrix.pth
     ├── index_to_word.pkl
