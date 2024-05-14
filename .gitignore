@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Visual Studio Code settings
+.vscode/
+
+# Environment configuration files
+.env
+
+# Large files in static
+static/cc.es.300.bin
+static/embedding_matrix.pth
+
+# Contents of data directories but keep the directories themselves
+data/processed/*
+data/raw/*
+!data/processed/
+!data/raw/
+
+# Trained models
+models/*
+
