@@ -1,4 +1,4 @@
-# CSCI-GA 2565 Final Project: Implementing SpoilerNet
+# SpoilerNet
 
 ## Description
 
@@ -60,11 +60,11 @@ Refer to the README under the `data/` directory for instructions on downloading 
 
 ### Embedding Generation
 
-To generate the word embeddings for the SpoilerNet model, run the embedding generation code block in the `notebooks/model_implementation.ipynb` notebook. This will generate the necessary files in the `static/` directory. Since the size of the embedding file is too large to be uploaded to GitHub, I did not include it in the repository. You may download it following this Google drive link: [embedding_matrix.pth](https://drive.google.com/file/d/1NRp7pmJW6r1hOwmwd28eyDGKhx6cMdne/view?usp=sharing) (NYU email required).
+To generate the word embeddings for the SpoilerNet model, run the embedding generation code block in the `notebooks/model_implementation.ipynb` notebook. This will generate the necessary files in the `static/` directory. Since the size of the embedding file is too large to be uploaded to GitHub, I did not include it in the repository. You may download it following this Google drive link: [embedding_matrix.pth](https://drive.google.com/file/d/1T-fWDo_qQmKT4O2DjbBImsCo80nQCWvk/view?usp=sharing).
 
 ### Trained Model
 
-The training process for the SpoilerNet model is detailed in the `notebooks/model_implementation.ipynb` notebook. The trained model file should be included in the `models/` directory. If you would like to train the model yourself, refer to the notebook for instructions. However, due to the size of the trained model file, I did not include it in the repository. You may download it following this Google drive link: [complete_model.pth](https://drive.google.com/file/d/1j9bsl7ZXRF2jSm5WCzunO8MiNsk64pyj/view?usp=sharing) (NYU email required).
+The training process for the SpoilerNet model is detailed in the `notebooks/model_implementation.ipynb` notebook. The trained model file should be included in the `models/` directory. If you would like to train the model yourself, refer to the notebook for instructions. However, due to the size of the trained model file, I did not include it in the repository. You may download it following this Google drive link: [complete_model.pth](https://drive.google.com/file/d/1ujdd6IzJmIhm0ZT1VDPR-e9IfSTgS3iS/view?usp=sharing).
 
 ### Running the Application
 
@@ -89,3 +89,7 @@ Note that API keys and other sensitive information should be stored in a `.env` 
 ## Usage
 
 Once the Streamlit application is running, navigate to the local web server address provided in your terminal to interact with the SpoilerNet system.
+
+## Reference
+
+Mengting Wan, Rishabh Misra, Ndapa Nakashole, Julian McAuley, **"Fine-Grained Spoiler Detection from Large-Scale Review Corpora"**, in *Proceedings of the 2019 Annual Meeting of the Association for Computational Linguistics (ACL'19)*, Florence, Italy, July 2019. [Link](https://arxiv.org/pdf/1905.13416)
